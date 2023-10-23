@@ -1,0 +1,11 @@
+/Users/ryanmcvie/Desktop/Development/Projects/genetic-sim-net/GeneticSimulator/bin/Debug/net7.0/GeneticSimulator.deps.json
+/Users/ryanmcvie/Desktop/Development/Projects/genetic-sim-net/GeneticSimulator/bin/Debug/net7.0/GeneticSimulator.dll
+/Users/ryanmcvie/Desktop/Development/Projects/genetic-sim-net/GeneticSimulator/bin/Debug/net7.0/GeneticSimulator.pdb
+/Users/ryanmcvie/Desktop/Development/Projects/genetic-sim-net/GeneticSimulator/obj/Debug/net7.0/GeneticSimulator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ryanmcvie/Desktop/Development/Projects/genetic-sim-net/GeneticSimulator/obj/Debug/net7.0/GeneticSimulator.AssemblyInfoInputs.cache
+/Users/ryanmcvie/Desktop/Development/Projects/genetic-sim-net/GeneticSimulator/obj/Debug/net7.0/GeneticSimulator.AssemblyInfo.cs
+/Users/ryanmcvie/Desktop/Development/Projects/genetic-sim-net/GeneticSimulator/obj/Debug/net7.0/GeneticSimulator.csproj.CoreCompileInputs.cache
+/Users/ryanmcvie/Desktop/Development/Projects/genetic-sim-net/GeneticSimulator/obj/Debug/net7.0/GeneticSimulator.dll
+/Users/ryanmcvie/Desktop/Development/Projects/genetic-sim-net/GeneticSimulator/obj/Debug/net7.0/refint/GeneticSimulator.dll
+/Users/ryanmcvie/Desktop/Development/Projects/genetic-sim-net/GeneticSimulator/obj/Debug/net7.0/GeneticSimulator.pdb
+/Users/ryanmcvie/Desktop/Development/Projects/genetic-sim-net/GeneticSimulator/obj/Debug/net7.0/ref/GeneticSimulator.dll

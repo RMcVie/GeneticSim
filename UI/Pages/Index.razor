@@ -1,0 +1,56 @@
+﻿@page "/"
+@using GeneticSimulator
+@inject IJSRuntime JsRuntime
+
+<button @onclick="GenerateWorld">Generate New World</button>
+<button @onclick="NextStep">Next Step</button>
+<button @onclick="NextGeneration">Next Generation</button>
+<BECanvas Width="@(worldSize*5)" Height="@(worldSize*5)" @ref="_canvasReference"></BECanvas>
+
+@code {
+    private BECanvasComponent _canvasReference;
+    private Canvas2DContext _context;
+    private World world;
+    private const int worldSize = 40;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            _context = await _canvasReference.CreateCanvas2DAsync();
+        }
+    }
+
+    private async Task GeneratePixels()
+    {
+        // Clear the canvas
+        await _context.ClearRectAsync(0, 0, worldSize*5, worldSize*5);
+        await _context.SetFillStyleAsync("black");
+        await _context.FillRectAsync(0, 0, worldSize*5, worldSize*5);
+
+        // Generate new pixels
+        foreach (var (beep, data) in world._beepMetadata)
+        {
+            await _context.SetFillStyleAsync("red");
+            await _context.FillRectAsync(data.XPos*5, data.YPos*5, 5, 5);
+        }
+    }
+    
+    private async Task GenerateWorld()
+    {
+        world = new World(worldSize);
+        await GeneratePixels();
+    }
+    
+    private async Task NextStep()
+    {
+        world.SimulateSteps(1);
+        await GeneratePixels();
+    }
+
+    private async Task NextGeneration()
+    {
+        world.SimulateGenerations(1);
+        await GeneratePixels();
+    }
+}
