@@ -5811,11 +5811,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ryanmcvie/Desktop/Development/Projects/genetic-sim-net/TestProject1/TestProject1.csproj",
-      "projectName": "TestProject1",
-      "projectPath": "/Users/ryanmcvie/Desktop/Development/Projects/genetic-sim-net/TestProject1/TestProject1.csproj",
+      "projectUniqueName": "/Users/ryanmcvie/Desktop/Development/Projects/genetic-sim-net/Tests/Tests.csproj",
+      "projectName": "Tests",
+      "projectPath": "/Users/ryanmcvie/Desktop/Development/Projects/genetic-sim-net/Tests/Tests.csproj",
       "packagesPath": "/Users/ryanmcvie/.nuget/packages/",
-      "outputPath": "/Users/ryanmcvie/Desktop/Development/Projects/genetic-sim-net/TestProject1/obj/",
+      "outputPath": "/Users/ryanmcvie/Desktop/Development/Projects/genetic-sim-net/Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ryanmcvie/.nuget/NuGet/NuGet.Config"

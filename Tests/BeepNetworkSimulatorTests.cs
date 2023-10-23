@@ -1,7 +1,7 @@
 using FluentAssertions;
 using GeneticSimulator;
 
-namespace TestProject1;
+namespace Tests;
 
 public class BeepNetworkSimulatorTests
 {
@@ -131,30 +131,5 @@ public class BeepNetworkSimulatorTests
 
         var beep = new Beep(genes);
         beep.Simulate();
-    }
-}
-
-public class SampleSensor : SensorNode
-{
-    private readonly float _value;
-
-    public SampleSensor(float value) : base(null!)
-    {
-        _value = value;
-    }
-
-    protected override Func<Beep, float> ReadSensorImplementation()
-    {
-        return _ => _value;
-    }
-}
-
-public sealed class EffectorNodeStub : EffectorNode
-{
-    public float Input { get; private set; }
-
-    public EffectorNodeStub()
-    {
-        Effect = _ => { Input = _receivedInputs.Sum(x=>x.Value); };
     }
 }

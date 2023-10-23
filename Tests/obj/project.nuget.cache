@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RJP6G9XpZWiIl2wGsSahRfXPBXNJIUydn0i7F6h/Ygn5/tWxUxbzq/msu5Ht0aW1kR/YKvZ6UcQIAUfpsB/GEg==",
+  "dgSpecHash": "UN8XIkkCC/PKi4zNEyco0cV5UuXZNr1qb1v0riy6pvhewStkgtEALGHNbnl5MwMaZgoZRMmefdMcybQk+KsMcA==",
   "success": true,
-  "projectFilePath": "/Users/ryanmcvie/Desktop/Development/Projects/genetic-sim-net/TestProject1/TestProject1.csproj",
+  "projectFilePath": "/Users/ryanmcvie/Desktop/Development/Projects/genetic-sim-net/Tests/Tests.csproj",
   "expectedPackageFiles": [
     "/Users/ryanmcvie/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
     "/Users/ryanmcvie/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",

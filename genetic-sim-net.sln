@@ -4,7 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{6181
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneticSimulator", "GeneticSimulator\GeneticSimulator.csproj", "{F2640D72-0956-4FAE-A355-B1F571CA8D4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{E8B33A97-5E98-4026-BD4E-B3AF99CAB495}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{E8B33A97-5E98-4026-BD4E-B3AF99CAB495}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
